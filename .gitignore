@@ -1,0 +1,4 @@
+/server
+/unit_tests
+*.o
+__pycache__/

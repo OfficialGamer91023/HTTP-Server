@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>http-server</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+    <h1>http-server is running</h1>
+    <p>A multithreaded HTTP/1.1 server written in C++17 on raw POSIX sockets.</p>
+    <ul>
+      <li><code>GET /api/health</code> health check</li>
+      <li><code>POST /api/jobs</code> queue a text-analysis job (REST, JSON)</li>
+      <li><code>GET /api/jobs/{id}</code> poll a job</li>
+      <li><a href="/soap?wsdl"><code>GET /soap?wsdl</code></a> SOAP service description</li>
+      <li><code>POST /soap</code> the same jobs over SOAP 1.1</li>
+    </ul>
+  </main>
+</body>
+</html>
